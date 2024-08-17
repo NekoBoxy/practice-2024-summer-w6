@@ -1,0 +1,47 @@
+// 英文 Roboto
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+// 中文 思源黑體
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: content-box;
+  // outline: 1px solid blue;
+}
+
+body {
+  font-family: "Roboto", "Noto Sans TC", serif;
+  // color: $tertiary;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto; // 建議加上
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: $primary;
+  display: inline-block;
+
+  &:hover {
+    filter: brightness(50%);
+  }
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

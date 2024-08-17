@@ -1,0 +1,11 @@
+@import './helpers/variables';
+
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+@import './helpers/utilities';
+
+@import './base/base';
+@import './layout/header';
+@import './layout/footer';
+@import './pages/index';
