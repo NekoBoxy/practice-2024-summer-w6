@@ -10,5 +10,7 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest'
-  }
+  },
+  // eslint 會試著解讀 scss 然後一直跳錯XD 故加上
+  eslintIgnore: ["**/*.scss"],
 }
