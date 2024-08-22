@@ -28,6 +28,7 @@ img {
 a {
   text-decoration: none;
   // color: $primary;
+  vertical-align: middle;
   display: inline-block;
 }
 
@@ -76,6 +77,9 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   // 文字水平間距，相對於自身 font-size 的值 
   letter-spacing: 0.1em;
+  margin: 0;
+  display: inline-block;
+
 }
 
 h1, h2, h3, h4, h5 {

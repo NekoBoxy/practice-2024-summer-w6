@@ -5,8 +5,8 @@
 // const myModal = ref(null);
 
 // onMounted(() => {
-  // const test = new Modal(myModal.value);
-  // test.show();
+// const test = new Modal(myModal.value);
+// test.show();
 // })
 </script>
 
@@ -22,7 +22,8 @@
         </picture>
       </a>
 
-      <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+      <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+        aria-controls="offcanvasTop">
         <img src="../assets/images/icon-burger-default.svg" alt="">
       </button>
 
@@ -33,35 +34,36 @@
 
         <div class="offcanvas-body">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item mb-4">
+            <li class="nav-item mb-3">
               <form class="d-flex align-items-center position-relative" role="search">
-                <input class="form-control me-2 rounded-pill" style="padding: 8px 20px;" type="search" placeholder="搜尋" aria-label="Search">
-                <button class="btn position-absolute" type="submit" style="right: 8px;">
+                <input class="search-input form-control me-2 rounded-pill" type="search" placeholder="搜尋文章"
+                  aria-label="Search">
+                <button class="search-btn btn position-absolute" type="submit">
                   <img src="../assets/images/icon-search.svg" alt="">
                 </button>
               </form>
             </li>
 
-            <li class="nav-item mb-4">
+            <li class="nav-item mb-3">
               <a class="nav-link active" aria-current="page" href="#">
                 <h6>所有文章</h6>
               </a>
             </li>
 
-            <li class="nav-item mb-4">
+            <li class="nav-item mb-3">
               <a class="nav-link" href="#">
                 <h6>訂閱方案</h6>
               </a>
             </li>
 
-            <li class="nav-item mb-4">
+            <li class="nav-item mb-3">
               <a class="nav-link" href="#">
                 <h6>關於我們</h6>
               </a>
             </li>
 
             <li class="nav-item btn-login">
-              <button class="rounded-pill" style="width: 90%; padding: 12px 20px;" type="button">登入 / 註冊</button>
+              <button class="rounded-pill" type="button">登入 / 註冊</button>
             </li>
           </ul>
         </div>
