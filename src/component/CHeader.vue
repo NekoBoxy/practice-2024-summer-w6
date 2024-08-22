@@ -26,72 +26,46 @@
         <img src="../assets/images/icon-burger-default.svg" alt="">
       </button>
 
-      <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+      <div class="offcanvas offcanvas-top h-100" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
         <div class="offcanvas-header">
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
 
         <div class="offcanvas-body">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">搜尋文章</button>
+            <li class="nav-item mb-4">
+              <form class="d-flex align-items-center position-relative" role="search">
+                <input class="form-control me-2 rounded-pill" style="padding: 8px 20px;" type="search" placeholder="搜尋" aria-label="Search">
+                <button class="btn position-absolute" type="submit" style="right: 8px;">
+                  <img src="../assets/images/icon-search.svg" alt="">
+                </button>
               </form>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">所有文章</a>
+            <li class="nav-item mb-4">
+              <a class="nav-link active" aria-current="page" href="#">
+                <h6>所有文章</h6>
+              </a>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">訂閱方案</a>
+            <li class="nav-item mb-4">
+              <a class="nav-link" href="#">
+                <h6>訂閱方案</h6>
+              </a>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">關於我們</a>
+            <li class="nav-item mb-4">
+              <a class="nav-link" href="#">
+                <h6>關於我們</h6>
+              </a>
             </li>
 
-            <li class="nav-item">
-              <button type="button">登入 / 註冊</button>
+            <li class="nav-item btn-login">
+              <button class="rounded-pill" style="width: 90%; padding: 12px 20px;" type="button">登入 / 註冊</button>
             </li>
           </ul>
         </div>
       </div>
-
-      <!-- ori -->
-      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div> -->
     </div>
   </nav>
 </template>
