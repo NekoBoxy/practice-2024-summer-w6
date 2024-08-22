@@ -12,9 +12,23 @@ onMounted(() => {
 </script>
 
 <template>
-  <header>
-    <Nav />
-  </header>
+  <Nav />
 
-  <main></main>
+  <main>
+    <section>
+      <!-- <div class="container">
+        <div class="row">
+          <div class="col"> -->
+      <picture style="max-width: 100%;">
+        <!-- 預設圖片 - 小版 -->
+        <img src="../assets/images/bn-sm.png" alt="" srcset="">
+        <!-- 預設圖片 - 大版 -->
+        <source srcset="../assets/images/bn-lg.png" media="(min-width: 375px)">
+      </picture>
+      <!-- </div>
+        </div>
+      </div> -->
+    </section>
+
+  </main>
 </template>
