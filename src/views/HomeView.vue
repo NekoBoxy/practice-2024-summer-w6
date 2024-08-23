@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted } from "vue";
-import Nav from "../component/CHeader.vue";
+import CHeader from "../component/CHeader.vue";
 // import { Modal } from 'bootstrap';
 
 // const myModal = ref(null);
@@ -12,22 +12,26 @@ onMounted(() => {
 </script>
 
 <template>
-  <Nav />
+  <CHeader />
 
   <main>
-    <section>
-      <!-- <div class="container">
-        <div class="row">
-          <div class="col"> -->
-      <picture style="max-width: 100%;">
-        <!-- 預設圖片 - 小版 -->
-        <img src="../assets/images/bn-sm.png" alt="" srcset="">
-        <!-- 預設圖片 - 大版 -->
-        <source srcset="../assets/images/bn-lg.png" media="(min-width: 375px)">
-      </picture>
-      <!-- </div>
+    <section class="landing">
+      <div class="landing-container">
+        <!-- <picture>
+          <img src="../assets/images/bn-sm.png" alt="" srcset="">
+          <source srcset="../assets/images/bn-lg.png" media="(min-width: 375px)">
+        </picture> -->
+
+
+        <div class="content">
+          <p>獻給新世代的生活風格誌</p>
+          <p>一起探索生活的無限可能</p>
+          <button type="button">
+            馬上訂閱
+            <img src="../assets/images/icon-arrow-right.svg" alt="" srcset="">
+          </button>
         </div>
-      </div> -->
+      </div>
     </section>
 
   </main>
