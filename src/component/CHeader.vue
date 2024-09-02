@@ -18,7 +18,7 @@
           <!-- 預設圖片 - 小版 -->
           <img src="../assets/images/logo-sm.svg" alt="" srcset="">
           <!-- 預設圖片 - 大版 -->
-          <source srcset="../assets/images/logo-lg.svg" media="(min-width: 375px)">
+          <source srcset="../assets/images/logo-lg.svg" media="(min-width: 1921px)">
         </picture>
       </a>
 
