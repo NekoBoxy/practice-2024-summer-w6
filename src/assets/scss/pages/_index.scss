@@ -1,13 +1,15 @@
 .landing {
-  .landing-container {
-    width: 100%;
-    background-image: url('../../images/bn-sm.png');
-    background-repeat: no-repeat;
-    background-size: cover; // 自適應容器
+  background-image: url('@/assets/images/bn-sm.png');
+  background-repeat: no-repeat;
+  background-size: cover; // 自適應容器
+
+  @media screen and (min-width: 1921px) {
+    background-image: url('@/assets/images/bn-lg.png');
   }
 
   .content {
-    margin-top: auto;
-    color: $neutral-white;
+    padding-top: 377px;
+    padding-bottom: 48px;
+    text-align: center;
   }
 }

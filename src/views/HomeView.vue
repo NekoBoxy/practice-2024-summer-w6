@@ -1,7 +1,8 @@
 <script setup>
 import { ref, onMounted } from "vue";
-import CHeader from "../component/CHeader.vue";
+// import CHeader from "../component/CHeader.vue";
 // import { Modal } from 'bootstrap';
+
 
 // const myModal = ref(null);
 
